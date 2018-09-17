@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9117df61-9032-4e12-a74a-e63c5087600c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/game/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/engine/AbstractGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/engine/AbstractGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/engine/GameContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/engine/GameContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/engine/Renderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/engine/Renderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/game/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGameEngineBasic/game/GameManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/AbstractGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/AbstractGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/GameContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/GameContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/level.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/level.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,30 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/game/GameManager.java">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-              <folding>
-                <element signature="method#GameManager#0;class#GameManager#0" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/engine/GameContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-              <folding>
-                <element signature="method#start#0;class#GameContainer#0" />
-                <element signature="method#stop#0;class#GameContainer#0" />
-                <element signature="method#dispose#0;class#GameContainer#0" />
-              </folding>
+            <state relative-caret-position="-525">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -77,8 +50,8 @@
         <option value="$PROJECT_DIR$/src/engine/Renderer.java" />
         <option value="$PROJECT_DIR$/src/engine/GameContainer.java" />
         <option value="$PROJECT_DIR$/src/game/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/game/Player.java" />
         <option value="$PROJECT_DIR$/src/game/GameManager.java" />
+        <option value="$PROJECT_DIR$/src/game/Player.java" />
       </list>
     </option>
   </component>
@@ -102,42 +75,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaGameEngineBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGameEngineBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="game2ddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game2ddemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaGameEngineBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGameEngineBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="game2ddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game2ddemo" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game2ddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game2ddemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaGameEngineBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGameEngineBasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaGameEngineBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGameEngineBasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaGameEngineBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGameEngineBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="game2ddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game2ddemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="gfx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaGameEngineBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaGameEngineBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="game2ddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game2ddemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -145,8 +108,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,14 +199,16 @@
       <workItem from="1536986082519" duration="2695000" />
       <workItem from="1537059454486" duration="4565000" />
       <workItem from="1537149350687" duration="2118000" />
+      <workItem from="1537151871833" duration="5404000" />
+      <workItem from="1537168426104" duration="6800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11168000" />
+    <option name="totallyTimeSpent" value="23372000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -254,12 +220,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33184358" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -289,10 +255,103 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/game/GameManager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/GameContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="method#start#0;class#GameContainer#0" />
+            <element signature="method#stop#0;class#GameContainer#0" />
+            <element signature="method#dispose#0;class#GameContainer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2050">
+          <caret line="82" column="50" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding>
+            <element signature="method#Renderer#0;class#Renderer#0" />
+            <element signature="method#clear#0;class#Renderer#0" />
+            <element signature="method#process#0;class#Renderer#0" />
+            <element signature="class#1196:1570" />
+            <element signature="method#compare#0;class#1196:1570" />
+            <element signature="method#setPixel#0;class#Renderer#0" />
+            <element signature="method#setLightMap#0;class#Renderer#0" />
+            <element signature="method#setLightBlock#0;class#Renderer#0" />
+            <element signature="method#drawImage#0;class#Renderer#0" />
+            <element signature="method#drawImageTile#0;class#Renderer#0" />
+            <element signature="method#drawText#0;class#Renderer#0" />
+            <element signature="method#drawRect#0;class#Renderer#0" />
+            <element signature="method#drawFillRect#0;class#Renderer#0" />
+            <element signature="method#drawLightRequest#0;class#Renderer#0" />
+            <element signature="method#drawLightLine#0;class#Renderer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/GameContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="method#start#0;class#GameContainer#0" />
+            <element signature="method#stop#0;class#GameContainer#0" />
+            <element signature="method#dispose#0;class#GameContainer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="method#GameManager#0;class#GameManager#0" />
             <element signature="e#533#534#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
           </folding>
@@ -303,9 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-          <folding>
-            <element signature="method#Player#0;class#Player#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -314,7 +370,6 @@
         <state relative-caret-position="1300">
           <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
           <folding>
-            <element signature="method#GameManager#0;class#GameManager#0" />
             <element signature="e#533#534#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
           </folding>
@@ -327,14 +382,20 @@
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="method#Renderer#0;class#Renderer#0" />
+            <element signature="method#clear#0;class#Renderer#0" />
+            <element signature="method#process#0;class#Renderer#0" />
+            <element signature="class#1196:1570" />
+            <element signature="method#compare#0;class#1196:1570" />
+            <element signature="method#setPixel#0;class#Renderer#0" />
+            <element signature="method#setLightMap#0;class#Renderer#0" />
             <element signature="method#setLightBlock#0;class#Renderer#0" />
+            <element signature="method#drawImage#0;class#Renderer#0" />
             <element signature="method#drawImageTile#0;class#Renderer#0" />
             <element signature="method#drawText#0;class#Renderer#0" />
             <element signature="method#drawRect#0;class#Renderer#0" />
             <element signature="method#drawFillRect#0;class#Renderer#0" />
             <element signature="method#drawLightRequest#0;class#Renderer#0" />
             <element signature="method#drawLightLine#0;class#Renderer#0" />
-            <element signature="e#10417#10418#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -351,7 +412,6 @@
         <state relative-caret-position="1225">
           <caret line="58" column="65" lean-forward="true" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
           <folding>
-            <element signature="method#GameManager#0;class#GameManager#0" />
             <element signature="e#533#534#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
           </folding>
@@ -359,7 +419,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaGameEngine.iml" />
-    <entry file="file://$PROJECT_DIR$/JavaGameEngineBasic.iml">
+    <entry file="file://$PROJECT_DIR$/game2ddemo.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
@@ -373,34 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="306" column="51" selection-start-line="306" selection-start-column="51" selection-end-line="306" selection-end-column="51" />
-          <folding>
-            <element signature="method#Renderer#0;class#Renderer#0" />
-            <element signature="method#setLightBlock#0;class#Renderer#0" />
-            <element signature="method#drawImageTile#0;class#Renderer#0" />
-            <element signature="method#drawText#0;class#Renderer#0" />
-            <element signature="method#drawRect#0;class#Renderer#0" />
-            <element signature="method#drawFillRect#0;class#Renderer#0" />
-            <element signature="method#drawLightRequest#0;class#Renderer#0" />
-            <element signature="method#drawLightLine#0;class#Renderer#0" />
-            <element signature="e#10417#10418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/AbstractGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -408,19 +440,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="76" column="54" lean-forward="true" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
-          <folding>
-            <element signature="method#Player#0;class#Player#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/GameContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
+        <state relative-caret-position="1725">
           <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
           <folding>
             <element signature="method#start#0;class#GameContainer#0" />
@@ -430,15 +452,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="82" column="50" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding>
+            <element signature="method#Renderer#0;class#Renderer#0" />
+            <element signature="method#clear#0;class#Renderer#0" />
+            <element signature="method#process#0;class#Renderer#0" />
+            <element signature="class#1196:1570" />
+            <element signature="method#compare#0;class#1196:1570" />
+            <element signature="method#setPixel#0;class#Renderer#0" />
+            <element signature="method#setLightMap#0;class#Renderer#0" />
+            <element signature="method#setLightBlock#0;class#Renderer#0" />
+            <element signature="method#drawImage#0;class#Renderer#0" />
+            <element signature="method#drawImageTile#0;class#Renderer#0" />
+            <element signature="method#drawText#0;class#Renderer#0" />
+            <element signature="method#drawRect#0;class#Renderer#0" />
+            <element signature="method#drawFillRect#0;class#Renderer#0" />
+            <element signature="method#drawLightRequest#0;class#Renderer#0" />
+            <element signature="method#drawLightLine#0;class#Renderer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/GameManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        <state relative-caret-position="-275">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <element signature="method#GameManager#0;class#GameManager#0" />
             <element signature="e#533#534#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/level.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>

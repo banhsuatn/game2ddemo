@@ -10,13 +10,13 @@ public class Player extends GameObject {
 
     private int tileX;
     private int tileY;
-    private int offX;
-    private int offY;
+    private float offX;
+    private float offY;
 
-    private int speed = 150;
+    private int speed = 75;
     private float fallSpeed = 10;
     private float fallDistance = 0;
-    private float jump = -6;
+    private float jump = -4;
     private boolean ground = false;
 
     public Player(int posX, int posY) {
@@ -35,10 +35,32 @@ public class Player extends GameObject {
     public void update(GameContainer gc, GameManager gm, float dt) {
         //left right
         if (gc.getInput().isKey(KeyEvent.VK_A)) {
-            offX -= dt * speed;
+            if (gm.getCollision(tileX - 1, tileY) || gm.getCollision(tileX - 1, tileY + (int) Math.signum((int) offY))) {
+                if (offX > 0) {
+                    offX -= dt * speed;
+                    if (offX < 0) {
+                        offX = 0;
+                    }
+                } else {
+                    offX = 0;
+                }
+            } else {
+                offX -= dt * speed;
+            }
         }
         if (gc.getInput().isKey(KeyEvent.VK_D)) {
-            offX += dt * speed;
+            if (gm.getCollision(tileX + 1, tileY) || gm.getCollision(tileX + 1, tileY + (int) Math.signum((int) offY))) {
+                if (offX < 0) {
+                    offX += dt * speed;
+                    if (offX > 0) {
+                        offX = 0;
+                    }
+                } else {
+                    offX = 0;
+                }
+            } else {
+                offX += dt * speed;
+            }
         }
         //jump + gravity
         fallDistance += dt * fallSpeed;
@@ -46,11 +68,22 @@ public class Player extends GameObject {
             fallDistance = jump;
             ground = false;
         }
+
         offY += fallDistance;
-        if (gm.getCollision(tileX, tileY + 1) && offY >= 0) {
-            fallDistance = 0;
-            offY = 0;
-            ground = true;
+        if (fallDistance < 0) {
+            if ((gm.getCollision(tileX, tileY - 1)
+                    || gm.getCollision(tileX + (int) Math.signum((int) offX), tileY - 1)) && offY < 0) {
+                fallDistance = 0;
+                offY = 0;
+            }
+        }
+        if (fallDistance > 0) {
+            if ((gm.getCollision(tileX, tileY + 1)
+                    || gm.getCollision(tileX + (int) Math.signum((int) offX), tileY + 1)) && offY >= 0) {
+                fallDistance = 0;
+                offY = 0;
+                ground = true;
+            }
         }
         if (offY > GameManager.TS / 2) {
             tileY++;
@@ -68,6 +101,7 @@ public class Player extends GameObject {
             tileX--;
             offX += GameManager.TS;
         }
+
         posX = tileX * GameManager.TS + offX;
         posY = tileY * GameManager.TS + offY;
 
