@@ -33,6 +33,7 @@ public class Window {
         bfImage = new BufferedImage(gc.getWIDTH(),gc.getHEIGHT(),BufferedImage.TYPE_INT_RGB);
         bs = canvas.getBufferStrategy();
         graphics2D = (Graphics2D) bs.getDrawGraphics();
+        canvas.requestFocus();
     }
 
     public void updateView(){
